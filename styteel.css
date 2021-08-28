@@ -1,0 +1,64 @@
+
+/*
+body{
+    background-color: rgb(170, 162, 162);
+}
+.pop{
+    background-color: white;
+    
+}
+.inputnumbers{
+    background-color: hotpink;
+}
+.red{
+    color:red;
+}
+.blue{
+    color: blue;
+}
+.bobili{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+}
+.result{
+    background-color: indigo;
+    align-self: flex-start;
+}*/
+#bishbosh-grid{
+    display: grid;
+    background-color: beige;
+    color: #444;
+    grid-gap: 10px;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto ;
+}
+
+body{
+    background-color: beige;
+}
+
+div{
+
+    text-align: right;
+    width: 16rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    display: inline;
+}
+
+
+    
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+
+    }
+    div{
+
+        text-align: right;
+        width: 5.3rem;
+        height: 5rem;
+        font-size: 15px;
+       
+    }
+  }
